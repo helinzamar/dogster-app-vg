@@ -2,12 +2,10 @@ export function renderDogImage(url) {
   const container = document.createElement('div');
   container.classList.add('dog-card');
 
-  // Bild
   const img = document.createElement('img');
   img.src = url;
   img.alt = 'Random Dog';
 
-  // Rasinfo
   const breed = document.createElement('p');
   breed.classList.add('breed-text');
 
